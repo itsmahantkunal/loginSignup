@@ -1,0 +1,171 @@
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+nav{
+  display: flex;
+  justify-content: left;
+  background-color: rgb(7, 7, 7);
+  padding: 11px;
+}
+nav ul li a{
+  color: white;
+  margin-inline: 11px;
+}
+.head{
+  font-size: 20px;
+}
+form{
+  width: 330px;
+  text-align: center;
+}
+form input{
+  width: 95%;
+  padding: 5px;
+  border: 1px solid rgb(113, 119, 119);
+  font-size: 17px;
+  color: rgb(83, 83, 83);
+  margin-top: 21px;
+}
+form button{
+  width: 135px;
+  height: 33px;
+  background-color: rgb(2, 173, 122);
+  color: white;
+  font-family: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 22px;
+}
+form .heading{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.account{
+  text-align: left;
+  margin-top: -10px;
+  border-style: solid black;
+}
+.account p{
+  font-size: 14px;
+  color: rgb(83, 83, 83);
+  margin-top: 5px;
+}
+.account a{
+  color: rgb(0, 0, 225);
+  cursor: pointer;
+  
+}
+.main-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 53px;
+  margin-top: 29px;
+  flex-wrap: wrap;
+}
+   img{
+  width: 500px;
+  }
+  .errMsg{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(245, 5, 49);
+    width: 300px;
+    margin: auto;
+    color: white;
+
+  }
+
+  .home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .home button{
+    width: 130px;
+    height: 36px;
+    border: none;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+  }
+  .login-form{
+    margin: auto;
+  }
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.kp{
+  padding-top: 5px;
+  padding-bottom: 25px;
+  border: 2px solid black;
+}
+.kp:hover{
+  background-color: rgb(16, 184, 128);
+  color: whitesmoke;
+  transition-duration: 2s;
+}
+.sign{
+  padding-top: 5px;
+  padding-bottom: 25px;
+  border: 2px solid black;
+}
+.sign:hover{
+  background-color: rgb(16, 184, 128);
+  color: whitesmoke;
+  transition-duration: 2s;
+}
+/* .container{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 600px;
+  padding: 20px;
+  background-color: gray;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  border-radius: 10px;
+} */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
